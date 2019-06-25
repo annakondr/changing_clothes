@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.selected {
+  background: rgba(255, 192, 203, 0.51);
+}
+
+button {
+  margin-left: 20px;
+  color: #740a43;
+  background-color: rgb(255, 167, 200);
+
+}
+
+.item {
+  display: inline-block;
+  width: 170px;
+}
+
+ul {
+  list-style-type: circle;
+  color: #740a43;
+}
+
+li {
+  width: 240px;
+  height: 35px;
+  line-height: 30px;
+}
