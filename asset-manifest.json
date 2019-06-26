@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/changing-clothes/static/css/main.5a42a38e.chunk.css",
-    "main.js": "/changing-clothes/static/js/main.cdf9ca40.chunk.js",
-    "main.js.map": "/changing-clothes/static/js/main.cdf9ca40.chunk.js.map",
-    "runtime~main.js": "/changing-clothes/static/js/runtime~main.f0aba13a.js",
-    "runtime~main.js.map": "/changing-clothes/static/js/runtime~main.f0aba13a.js.map",
-    "static/js/2.f1b47934.chunk.js": "/changing-clothes/static/js/2.f1b47934.chunk.js",
-    "static/js/2.f1b47934.chunk.js.map": "/changing-clothes/static/js/2.f1b47934.chunk.js.map",
-    "index.html": "/changing-clothes/index.html",
-    "precache-manifest.cd6b74e71735bb4d7a44dd618c2d44f8.js": "/changing-clothes/precache-manifest.cd6b74e71735bb4d7a44dd618c2d44f8.js",
-    "service-worker.js": "/changing-clothes/service-worker.js",
-    "static/css/main.5a42a38e.chunk.css.map": "/changing-clothes/static/css/main.5a42a38e.chunk.css.map"
+    "main.css": "/changing_clothes/static/css/main.5a42a38e.chunk.css",
+    "main.js": "/changing_clothes/static/js/main.e8a55df6.chunk.js",
+    "main.js.map": "/changing_clothes/static/js/main.e8a55df6.chunk.js.map",
+    "runtime~main.js": "/changing_clothes/static/js/runtime~main.7c968081.js",
+    "runtime~main.js.map": "/changing_clothes/static/js/runtime~main.7c968081.js.map",
+    "static/js/2.f1b47934.chunk.js": "/changing_clothes/static/js/2.f1b47934.chunk.js",
+    "static/js/2.f1b47934.chunk.js.map": "/changing_clothes/static/js/2.f1b47934.chunk.js.map",
+    "index.html": "/changing_clothes/index.html",
+    "precache-manifest.e09f7ab103bf3ac84f50b7295b135c44.js": "/changing_clothes/precache-manifest.e09f7ab103bf3ac84f50b7295b135c44.js",
+    "service-worker.js": "/changing_clothes/service-worker.js",
+    "static/css/main.5a42a38e.chunk.css.map": "/changing_clothes/static/css/main.5a42a38e.chunk.css.map"
   }
 }
