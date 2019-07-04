@@ -50,7 +50,17 @@ ul {
 }
 
 li {
-  width: 240px;
+  width: 250px;
   height: 35px;
   line-height: 30px;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+
 }

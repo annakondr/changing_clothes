@@ -29,6 +29,7 @@ function Clothes(props) {
                        }
                 />
                 <button disabled={true}> Edit </button>
+                <a href="#" className="remove" onClick={() => props.removeItem(index)}>&times;</a>
               </li>
             )
           }

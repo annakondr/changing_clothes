@@ -1,4 +1,4 @@
-import {CANCELING, EDIT_PROGRESS, EDIT_START, UPDATE_LIST} from './actions';
+import {CANCELING, EDIT_PROGRESS, EDIT_START, REMOVE_ITEM, UPDATE_LIST} from './actions';
 
 const list = [
   'Apron',
@@ -58,6 +58,14 @@ export function getNextState(state = initialState, action) {
         edit: false,
         selected: null
       };
+    case REMOVE_ITEM:
+    return {
+      ...state,
+      clothes: state.clothes.filter((item) => {
+        return state.clothes.indexOf(item) !== action.index;
+      }),
+      selected: null,
+    };
     default:
       return state;
   }

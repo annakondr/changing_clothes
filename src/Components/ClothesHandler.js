@@ -1,6 +1,6 @@
 import {connect} from 'react-redux'
 import Clothes from './Clothes';
-import {startEdit, progressEdit, cancelEdit, updateList} from '../redux/actions'
+import {startEdit, progressEdit, cancelEdit, updateList, removeItem} from '../redux/actions';
 
 function mapStateToProps(state, ownProps) {
   return {
@@ -16,6 +16,7 @@ function mapDispatchToProps(dispatch) {
     inputChanged: (input) => dispatch(progressEdit(input)),
     clickEsc: () => dispatch(cancelEdit()),
     clickEnter: (input) => dispatch(updateList(input)),
+    removeItem: (index) => dispatch(removeItem(index))
   }
 }
 
