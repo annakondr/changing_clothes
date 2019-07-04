@@ -1,5 +1,31 @@
 body {
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.block {
+  width: 300px;
+  padding: 30px 10px;
+  border: 2px solid purple;
+  border-radius: 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.block:before {
+  content: "";
+  position: absolute;
+  border-radius: 5%;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("./w-qjCHPZbeXCQ-unsplash.jpg") center center;
+  background-size: cover;
+  opacity: .4;
 }
 
 .selected {
