@@ -1,4 +1,5 @@
-import {CANCELING, EDIT_PROGRESS, EDIT_START, REMOVE_ITEM, UPDATE_LIST} from './actions';
+import {ADD_ITEM, CANCELING, EDIT_PROGRESS, EDIT_START,
+  INPUT_NEW_ITEM, REMOVE_ITEM, UPDATE_LIST} from './actions';
 
 const list = [
   'Apron',
@@ -15,7 +16,8 @@ const initialState = {
   clothes: list,
   edit: false,
   textInput: '',
-  selected: null
+  selected: null,
+  newItem: '',
 };
 
 export function getNextState(state = initialState, action) {
@@ -37,15 +39,6 @@ export function getNextState(state = initialState, action) {
         selected: null
       };
     case UPDATE_LIST:
-      if (state.textInput === '') {
-        return {
-          ...state,
-          clothes: [...state.clothes].filter((item, index) => {
-            return state.selected !== index
-          }),
-          selected: null
-        };
-      }
       return {
         ...state,
         clothes: [...state.clothes].map((item, index) => {
@@ -66,6 +59,16 @@ export function getNextState(state = initialState, action) {
       }),
       selected: null,
     };
+    case INPUT_NEW_ITEM:
+      return {
+        ...state,
+        newItem: action.newItem,
+      };
+    case ADD_ITEM:
+      return {
+        ...state,
+        clothes: [...state.clothes, action.newItem],
+      };
     default:
       return state;
   }
