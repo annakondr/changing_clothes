@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/changing_clothes/static/css/main.77e4a356.chunk.css",
-    "main.js": "/changing_clothes/static/js/main.749ec79b.chunk.js",
-    "main.js.map": "/changing_clothes/static/js/main.749ec79b.chunk.js.map",
+    "main.css": "/changing_clothes/static/css/main.69b54bbd.chunk.css",
+    "main.js": "/changing_clothes/static/js/main.ecdb66b0.chunk.js",
+    "main.js.map": "/changing_clothes/static/js/main.ecdb66b0.chunk.js.map",
     "runtime~main.js": "/changing_clothes/static/js/runtime~main.7c968081.js",
     "runtime~main.js.map": "/changing_clothes/static/js/runtime~main.7c968081.js.map",
-    "static/js/2.f1b47934.chunk.js": "/changing_clothes/static/js/2.f1b47934.chunk.js",
-    "static/js/2.f1b47934.chunk.js.map": "/changing_clothes/static/js/2.f1b47934.chunk.js.map",
+    "static/js/2.566b7c6f.chunk.js": "/changing_clothes/static/js/2.566b7c6f.chunk.js",
+    "static/js/2.566b7c6f.chunk.js.map": "/changing_clothes/static/js/2.566b7c6f.chunk.js.map",
     "index.html": "/changing_clothes/index.html",
-    "precache-manifest.b9985191057a86ab45fb8024337296ff.js": "/changing_clothes/precache-manifest.b9985191057a86ab45fb8024337296ff.js",
+    "precache-manifest.cb772955b7fa77a1c168399d0a33d72d.js": "/changing_clothes/precache-manifest.cb772955b7fa77a1c168399d0a33d72d.js",
     "service-worker.js": "/changing_clothes/service-worker.js",
-    "static/css/main.77e4a356.chunk.css.map": "/changing_clothes/static/css/main.77e4a356.chunk.css.map",
+    "static/css/main.69b54bbd.chunk.css.map": "/changing_clothes/static/css/main.69b54bbd.chunk.css.map",
     "static/media/Clothes.css": "/changing_clothes/static/media/w-qjCHPZbeXCQ-unsplash.37bb8902.jpg"
   }
 }
